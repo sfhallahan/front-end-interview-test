@@ -9,3 +9,5 @@
 
     If a user has not specified a bound in a range or a type for the building type, default to show all.  If no filters are active or being
     applied, all locations should be shown in the `RemineTable`.  Bonus Points for a solid UX
+
+![](https://media.giphy.com/media/26DOs997h6fgsCthu/giphy.gif)
