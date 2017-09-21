@@ -13,7 +13,7 @@ class App extends Component {
                 <h2>Remine Frontend Developer Test</h2>
             </div>
             <p className="App-intro">
-                Congratulations!! You have gotten farther than 60% of our applicants. Don't stop here!
+                Congratulations!! You have gotten farther than 75% of our applicants. Don't stop here!
             </p>
             <p>
                 Do what you need to do to get this table to render filtered and fast.

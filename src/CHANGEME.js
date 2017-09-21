@@ -3,15 +3,15 @@ import RemineTable from './components/Table/RemineTable/RemineTable';
 import properties from './properties';
 
 class Test extends Component {
-  render() {
-    return (
-        <div className="testContainer">
-            <div className="filterContainer">
-                Your filters go here.
+    render() {
+        return (
+            <div className="testContainer">
+                <div className="filterContainer">
+                    Your filters go here.
+                </div>
+                <RemineTable properties={properties} />
             </div>
-            <RemineTable properties={properties} />
-        </div>
-    );
+        );
   }
 }
 
