@@ -8,4 +8,4 @@
     * the same building type as the one specified by the user (they can select from a list of building types, the allowable types are: `['multiFamily', 'condo', 'business', 'office', 'singleFamily']`
 
     If a user has not specified a bound in a range or a type for the building type, default to show all.  If no filters are active or being
-    applied, all locations should be shown in the `RemineTable`.
+    applied, all locations should be shown in the `RemineTable`.  Bonus Points for a solid UX
