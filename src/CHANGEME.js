@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import RemineTable from './components/Table/RemineTable/RemineTable';
-import properties from './properties';
 
 class Test extends Component {
     render() {
@@ -9,10 +8,10 @@ class Test extends Component {
                 <div className="filterContainer">
                     Your filters go here.
                 </div>
-                <RemineTable properties={properties} />
+                <RemineTable properties={[]} />
             </div>
         );
-  }
+    }
 }
 
 export default Test;
