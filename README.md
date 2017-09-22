@@ -1,5 +1,14 @@
 ### Remine Front End Interview Test
 
+#### Environment
+
+You may use whatever coding environment you would like, though, we will be testing your code with the following:
+
+- Node version 8+ 
+- Chrome browser version 60+
+
+#### To Do
+
 1. Obtain the list of locations from [front-end-interview-test-api](https://github.com/remineapp/front-end-interview-test-api) using the included `API.js` in **_this_** project
 2. Populate the `RemineTable` component inside of `CHANGEME.js` with the locations obtained above.
 3. Build out the `CHANGEME.js` view to allow a user to filter the `RemineTable` contents based on whether the location has:
