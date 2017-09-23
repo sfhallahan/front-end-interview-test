@@ -12,6 +12,10 @@ class API {
     getLocation(id) {
         return this._api.get(`locations/${id}`);
     }
+
+    getBuildingTypes() {
+        return this._api.get('buildingtypes');
+    }
 }
 
 export default new API();
