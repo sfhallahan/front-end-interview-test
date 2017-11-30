@@ -9,7 +9,7 @@ You may use whatever coding environment you would like, though, we will be testi
 
 #### To Do
 
-1. Obtain the list of locations and building type categories from [front-end-interview-test-api](https://github.com/remineapp/front-end-interview-test-api) using the included `API.js` in **_this_** project
+1. Obtain the list of locations and building type categories from front-end-interview-test-api using the included `API.js` in **_this_** project
 2. Populate the `RemineTable` component inside of `CHANGEME.js` with the locations obtained from step 1.
 3. Update `CHANGEME.js` and any other files you need to in order to allow a user to filter the `RemineTable` contents based on whether the location has:
     * a number of beds in a user specified range
