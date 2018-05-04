@@ -36,11 +36,11 @@ class Test extends Component {
 
         returnedProperties.forEach(property => {
           if (property.beds !== null) {
-            bedsSet.add(parseInt(property.beds));
+            bedsSet.add(parseInt(property.beds, 10));
             bedsMax = Math.max(bedsMax, parseInt(property.beds, 10));
           }
           if (property.baths !== null) {
-            bathsSet.add(parseInt(property.baths));
+            bathsSet.add(parseInt(property.baths, 10));
             bathsMax = Math.max(bathsMax, parseInt(property.baths, 10));
           }
           if (property.buildingType.name !== null) {

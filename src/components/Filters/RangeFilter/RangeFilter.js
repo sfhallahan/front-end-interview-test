@@ -21,7 +21,7 @@ export default function RangeFilter(props) {
         <select
           className="dropdown__select"
           value={props.min}
-          onChange={e => props.handleChange(`${props.name}Min`, parseInt(e.target.value))}
+          onChange={e => props.handleChange(`${props.name}Min`, parseInt(e.target.value, 10))}
         >
           {props.range.filter(value => (value <= props.max ? true : false)).map(validOption => (
             <option key={`${props.name}-min-${validOption}`} value={validOption}>
@@ -37,7 +37,7 @@ export default function RangeFilter(props) {
         <select
           className="dropdown__select"
           value={props.max}
-          onChange={e => props.handleChange(`${props.name}Max`, parseInt(e.target.value))}
+          onChange={e => props.handleChange(`${props.name}Max`, parseInt(e.target.value, 10))}
         >
           {props.range.filter(value => (value >= props.min ? true : false)).map(validOption => (
             <option key={`${props.name}-max-${validOption}`} value={validOption}>
