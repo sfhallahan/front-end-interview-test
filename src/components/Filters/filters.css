@@ -1,0 +1,20 @@
+.filterContainer {
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 24px;
+}
+
+.dropdown__container {
+  min-height: 24px;
+}
+
+.dropdown__label {
+  width: 24px;
+  margin: 12px;
+}
+
+.dropdown__select {
+  min-width: 75px;
+}
